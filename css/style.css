@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  /* background: linear-gradient(#424241, #303131, #262727); */
+  background: #ffff;
+  color: #151818;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #262727;
+}
+
+.bg-dark-custm {
+  background: #f3efef;
+}
+.custom-container {
+  max-width: 1300px;
+  margin: 5px auto;
+  padding: 5px 15px;
+  overflow: hidden;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  width: 250px;
+  border-radius: 50%;
+}
+.contact-info {
+  padding-top: 7rem;
+}
+.section-2 {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+.sect {
+  flex: 1;
+  margin: 0 10px;
+  height: 400px;
+}
+/* SKILLS */
+.main {
+  height: 100vh;
+}
+.box {
+  width: 500px;
+  height: 400px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.288);
+  border-radius: 23px;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.skill-head {
+  color: rgba(0, 0, 0, 0.55);
+}
+/* arrow */
+.arr_container,
+.cancel {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #fefefe;
+  bottom: 0;
+  right: 0;
+  border-radius: 23px 0 23px 0;
+  color: rgb(70, 70, 70);
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.arr_container i {
+  transform: rotate(45deg);
+}
+.active_arr {
+  transform: translate(80%, 80%);
+}
+.left-container {
+  position: absolute;
+  background: #262727;
+  width: 100%;
+  height: 100%;
+  border-radius: 23px;
+  padding: 40px 0 0 20px;
+  transition: all 0.4s;
+}
+.off {
+  transform: translate(-80%, -800%) rotate(90deg);
+}
+.active {
+  transform: translate(0) rotate(0);
+}
+.left-container {
+  padding-top: 6rem;
+}
+.left-container p {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+.left-container .skills div {
+  display: inline-block;
+  color: rgb(155, 155, 155);
+  border: 1px solid rgb(155, 155, 155);
+  padding: 5px 10px;
+  margin: 4px 4px 4px 0;
+}
+.left-container .icons {
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+.left-container .icons a {
+  color: #f3efef;
+}
+.left-container icons i {
+  color: #cfcfcf;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.4s;
+}
+.left-container .icons i:hover {
+  color: #2c5364;
+}
+.logos a img {
+  width: 100px;
+}
+.otherSkills li {
+  list-style: none;
+}
