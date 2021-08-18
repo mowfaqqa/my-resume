@@ -6,18 +6,19 @@
 }
 
 body {
-  /* background: linear-gradient(#424241, #303131, #262727); */
-  background: #ffff;
-  color: #151818;
+  background: linear-gradient(#3f2a2a, #3f2a2a, #181010);
+  background: #141414;
+  color: #73bdbd;
   overflow-x: hidden;
 }
 a {
   text-decoration: none;
-  color: #262727;
+  color: #73bdbd;
 }
 
 .bg-dark-custm {
-  background: #f3efef;
+  background: linear-gradient(#292929, #222222, #1d1c1c);
+  color: #73bdbd;
 }
 .custom-container {
   max-width: 1300px;
@@ -62,7 +63,7 @@ a {
   overflow: hidden;
 }
 .skill-head {
-  color: rgba(0, 0, 0, 0.55);
+  color: #73bdbd;
 }
 /* arrow */
 .arr_container,
@@ -129,6 +130,10 @@ a {
 }
 .left-container .icons i:hover {
   color: #2c5364;
+}
+/* projects */
+.icon-links a i {
+  color: #73bdbd;
 }
 .logos a img {
   width: 100px;
