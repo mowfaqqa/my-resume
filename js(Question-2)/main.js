@@ -28,3 +28,10 @@ clc.addEventListener("click", ()=>{
       leftContainer.classList.add("off")
    }
 })
+
+VanillaTilt.init(document.querySelectorAll(".bg-glass"), {
+   max: 15,
+   speed: 400,
+   glare : true,
+   "max-glare" : 1,
+})
